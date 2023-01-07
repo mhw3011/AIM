@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style1.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <title>product</title>
+</head>
+<style>
+    body{
+        background-image: url(./images/bg_auto_x2_colored.jpg);
+        background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100%;
+    }
+    
+  
+</style>
+
+
+ 
+      <body>
+       
+
+        <div class="header">
+            
+             <img alt="logo" src="./images/logo.png">
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <b><a href="http://127.0.0.1:5500/index.html" style="font-size: 29px;"class="mr-5 hover:text-teal-400">HOME</a> </b>
+           <b><a href="http://127.0.0.1:5500/add%20to%20cart.html" style="font-size: 29px;" class="mr-5 hover:text-teal-400">PRODUCTS</a></b> 
+           <b> <a href="./contact.html" style="font-size: 29px;"class="mr-5 hover:text-teal-400">CONTACT</a></b>
+              </nav>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">₹ 0.00</h2>
+                </div>
+            </div>
+        </div>
+        <script src="cart.js"></script>
+    </body>
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img alt="logo" src="./images/logo.png">
+            
+            <span class="ml-3 text-xl"></span>
+          </a>
+          <p class="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©AIM
+            <a href="https://twitter.com/knyttneve" class="text-gray-200 ml-1" rel="noopener noreferrer" target="_blank"></a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            
+          </span>
+        </div>
+      </footer>
+      
+
+</html>
